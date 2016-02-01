@@ -12,6 +12,8 @@
 		ABA117FC1C5F5557003BD040 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA117FA1C5F5557003BD040 /* Main.storyboard */; };
 		ABA117FE1C5F5557003BD040 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABA117FD1C5F5557003BD040 /* Assets.xcassets */; };
 		ABA118011C5F5557003BD040 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA117FF1C5F5557003BD040 /* LaunchScreen.storyboard */; };
+		ABA118091C5F568C003BD040 /* GalleryItemsLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA118081C5F568C003BD040 /* GalleryItemsLayout.swift */; };
+		ABA1180B1C5F5A78003BD040 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA1180A1C5F5A78003BD040 /* ImageCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		ABA117FD1C5F5557003BD040 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABA118001C5F5557003BD040 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABA118021C5F5557003BD040 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABA118081C5F568C003BD040 /* GalleryItemsLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryItemsLayout.swift; sourceTree = "<group>"; };
+		ABA1180A1C5F5A78003BD040 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				ABA117F61C5F5557003BD040 /* AppDelegate.swift */,
 				ABA117F81C5F5557003BD040 /* ViewController.swift */,
+				ABA1180A1C5F5A78003BD040 /* ImageCollectionViewCell.swift */,
+				ABA118081C5F568C003BD040 /* GalleryItemsLayout.swift */,
 				ABA117FA1C5F5557003BD040 /* Main.storyboard */,
 				ABA117FD1C5F5557003BD040 /* Assets.xcassets */,
 				ABA117FF1C5F5557003BD040 /* LaunchScreen.storyboard */,
@@ -136,6 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABA117F91C5F5557003BD040 /* ViewController.swift in Sources */,
+				ABA118091C5F568C003BD040 /* GalleryItemsLayout.swift in Sources */,
+				ABA1180B1C5F5A78003BD040 /* ImageCollectionViewCell.swift in Sources */,
 				ABA117F71C5F5557003BD040 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
