@@ -37,7 +37,7 @@ class GalleryItemsLayout: UICollectionViewLayout {
             
             var xOffset = self.horizontalInset
             
-            var rowHeight: CGFloat = 0.0
+            var rowHeight = getRandomHeight()
             
             for var item = 0; item < numberOfItems; item++ {
                 
@@ -49,7 +49,7 @@ class GalleryItemsLayout: UICollectionViewLayout {
                 
                 if self.collectionView!.frame.size.width - xOffset > self.maximumItemWidth * 1.5 {
                     itemSize = randomItemSize()
-                    rowHeight = itemSize.height
+                    itemSize.height = rowHeight
                 } else {
                     itemSize.width = self.collectionView!.frame.size.width - xOffset - self.horizontalInset
                     itemSize.height = rowHeight
