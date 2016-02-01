@@ -29,13 +29,16 @@
                                             <integer key="value" value="5"/>
                                         </userDefinedRuntimeAttribute>
                                         <userDefinedRuntimeAttribute type="number" keyPath="minimumItemWidth">
-                                            <integer key="value" value="150"/>
+                                            <integer key="value" value="80"/>
                                         </userDefinedRuntimeAttribute>
                                         <userDefinedRuntimeAttribute type="number" keyPath="maximumItemWidth">
-                                            <integer key="value" value="300"/>
+                                            <integer key="value" value="180"/>
                                         </userDefinedRuntimeAttribute>
-                                        <userDefinedRuntimeAttribute type="number" keyPath="itemHeight">
-                                            <integer key="value" value="200"/>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="minimumItemHeight">
+                                            <integer key="value" value="80"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="maximumItemHeight">
+                                            <integer key="value" value="180"/>
                                         </userDefinedRuntimeAttribute>
                                     </userDefinedRuntimeAttributes>
                                 </collectionViewLayout>
